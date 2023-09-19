@@ -1,7 +1,7 @@
 date: 15-09-23
 title: flutter e linux
 category: developer
-
+image_url: ../../static/fllin.png
 
 ![Alt text](../../static/fllin.png)
 
