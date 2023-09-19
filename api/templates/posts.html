@@ -7,7 +7,7 @@
     <label for="categoria">Filtrar por Categoria:</label>
     <select id="categoria">
         <option value="">Todas as Categorias</option>
-         {% for post in posts 
+         {% for post in posts %}
          {% if post.category != ".init" %}
                 <option value="{{ post.category }}">{{ post.category }}</option>
         {% endif %}            
