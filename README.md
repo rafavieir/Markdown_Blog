@@ -1,28 +1,24 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask&demo-title=Flask%20%2B%20Vercel&demo-description=Use%20Flask%202%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+# Blog de Markdown em Flask
 
-# Flask + Vercel
+Este é um simples blog de Markdown construído usando o framework [Flask](https://flask.palletsprojects.com/) em Python. O blog permite que você crie, edite, liste e visualize postagens em formato Markdown. Ele também suporta categorização de postagens e implantação automática no [Vercel](https://vercel.com/).
 
-This example shows how to use Flask 2 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+## Funcionalidades
 
-## Demo
+- **Criação de Postagens:** Você pode criar novas postagens em formato Markdown usando a interface web.
 
-https://flask-python-template.vercel.app/
+- **Edição de Postagens:** As postagens podem ser editadas a qualquer momento. O sistema faz o controle de versões para você.
 
-## How it Works
+- **Listagem de Postagens:** Todas as postagens são listadas na página inicial do blog. Você pode filtrar postagens por categoria.
 
-This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
+- **Visualização de Postagens:** Cada postagem é renderizada em HTML a partir do Markdown e é exibida em uma página de visualização separada.
 
-## Running Locally
+- **Categorização:** Você pode categorizar suas postagens para organizá-las melhor.
 
-```bash
-npm i -g vercel
-vercel dev
-```
+- **Implantação Automática:** O blog suporta implantação automática no Vercel sempre que você cria ou edita uma postagem. Basta criar uma postagem e ela estará online instantaneamente.
 
-Your Flask application is now available at `http://localhost:3000`.
+## Requisitos
 
-## One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask&demo-title=Flask%20%2B%20Vercel&demo-description=Use%20Flask%202%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+- [Python 3.x](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+- [Git](https://git-scm.com/)
+- Conta no [Vercel](https://vercel.com/) (para a implantação)
