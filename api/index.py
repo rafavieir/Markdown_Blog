@@ -1,4 +1,4 @@
-# app.py
+# index.py
 from flask import Flask
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
@@ -9,7 +9,7 @@ app.config.from_object(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
 
-# Import routes
+# Import routes from a separate file
 from routes import *
 
 if __name__ == "__main__":
