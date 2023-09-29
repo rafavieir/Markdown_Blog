@@ -1,5 +1,5 @@
 # routes.py
-from app import app, flatpages
+from index import app, flatpages
 
 POST_DIR = 'posts'
 
