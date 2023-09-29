@@ -1,23 +1,25 @@
 # routes.py
-from index import app, flatpages
+from flask import render_template
+from app import app, flatpages
 
 POST_DIR = 'posts'
 
-@app.route("/")
-def index():
-    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
-    return render_template('posts.html', posts=posts)
+def register_routes():
+    @app.route("/")
+    def index():
+        posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+        return render_template('posts.html', posts=posts)
 
-@app.route('/posts/<name>/')
-def post(name):
-    path = '{}/{}'.format(POST_DIR, name)
-    post = flatpages.get_or_404(path)
-    return render_template('post.html', post=post)
+    @app.route('/posts/<name>/')
+    def post(name):
+        path = '{}/{}'.format(POST_DIR, name)
+        post = flatpages.get_or_404(path)
+        return render_template('post.html', post=post)
 
-@app.route('/sobre/')
-def sobre():
-    return post('sobre')
+    @app.route('/sobre/')
+    def sobre():
+        return post('sobre')
 
-@app.route('/contato')
-def contato():
-    return post('contato')
+    @app.route('/contato')
+    def contato():
+        return post('contato')
