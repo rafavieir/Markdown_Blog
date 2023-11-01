@@ -19,10 +19,6 @@ O projeto está funcionando com algumas alterações:
 
 ### A Fazer
 
-- Melhorar a renderização do Markdown nos posts (concluído).
-- Filtrar a listagem e não exibir arquivos declarados como `.init` na categoria.
-- Criar um filtro para listar por meio de um combobox.
-- Melhorar sistemas e funções das rotas 
 - Armazenar os posts em uma pasta no Google Drive.
 - Melhorar os processos shell.
 - Criar um Dockerfile.
