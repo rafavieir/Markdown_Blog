@@ -15,4 +15,3 @@ Se você tiver perguntas, sugestões, ou estiver interessado em colaborar, sinta
 
 ---
 
-Aguardo seu contato!
