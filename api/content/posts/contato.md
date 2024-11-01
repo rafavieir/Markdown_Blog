@@ -13,12 +13,6 @@ Se você tiver perguntas, sugestões, ou estiver interessado em colaborar, sinta
 - [LinkedIn](https://www.linkedin.com/in/rafaelvieir/) - Conecte-se comigo no LinkedIn!
 - [GitHub](https://github.com/rafavieir) - Veja meus projetos e colaborações no GitHub.
 
-## E-mail
-
-Para contatos mais formais, você pode enviar um e-mail para:
-
-- **seu-email@example.com**
-
 ---
 
 Aguardo seu contato!
