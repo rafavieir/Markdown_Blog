@@ -10,8 +10,8 @@ Se você tiver perguntas, sugestões, ou estiver interessado em colaborar, sinta
 
 ## Redes Sociais
 
-- [LinkedIn](https://www.linkedin.com/in/seu-perfil) - Conecte-se comigo no LinkedIn!
-- [GitHub](https://github.com/seu-usuario) - Veja meus projetos e colaborações no GitHub.
+- [LinkedIn](https://www.linkedin.com/in/rafaelvieir/) - Conecte-se comigo no LinkedIn!
+- [GitHub](https://github.com/rafavieir) - Veja meus projetos e colaborações no GitHub.
 
 ## E-mail
 
